@@ -1,0 +1,21 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+
+# Model Training Logs (CatBoost)
+catboost_info/
+
+# OS generated files
+.DS_Store
+Thumbs.db
