@@ -1,6 +1,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Project-Final-orange)
+![Status](https://img.shields.io/badge/VinIntelligence-QualifyingRound-orange)
 
 # Datathon 2026 - Dự báo Doanh thu & Giá vốn hàng bán (COGS)
 Dự báo các chỉ số tài chính (Revenue & COGS) cho ngành bán lẻ/thương mại điện tử sử dụng 6 mô hình Học máy và Học sâu:
