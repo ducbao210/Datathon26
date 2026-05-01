@@ -34,7 +34,7 @@ Dự báo các chỉ số tài chính (Revenue & COGS) cho ngành bán lẻ/thư
     - Các sự kiện khuyến mãi, cờ cộng dồn và số chiến dịch đang chạy.
     - Lưu lượng truy cập Web (số phiên, số lượt xem trang, tỷ lệ thoát).
     - Yếu tố thời gian có tính chu kỳ (Chuỗi Fourier, kỳ nghỉ Tết Nguyên Đán).
-- Mục tiêu: Dự án đánh giá và so sánh hiệu suất của nhiều mô hình, bao gồm **Prophet**, **CatBoost**, **LightGBM**, **LSTM**, và **HybridResidualModel**.
+- Mục tiêu: Dự án đánh giá và so sánh hiệu suất của nhiều mô hình, bao gồm  **ARIMA**,**Prophet**, **CatBoost**, **LightGBM**, **LSTM**, **Transformer**, và **HybridResidualModel**.
 Dự án cũng cung cấp một luồng xử lý (pipeline) hoàn chỉnh từ tiền xử lý dữ liệu, huấn luyện mô hình, đánh giá, tinh chỉnh siêu tham số, cho đến recursive forecasting.
 
 ## Tính năng
@@ -42,7 +42,7 @@ Dự án cũng cung cấp một luồng xử lý (pipeline) hoàn chỉnh từ t
 - Kỹ thuật trích xuất đặc trưng nâng cao (Lags, EMA, Mã hóa chu kỳ) để cải thiện hiệu suất mô hình.
 - Huấn luyện đồng thời nhiều mô hình Học máy và Học sâu.
 - Tự động hóa quá trình tối ưu siêu tham số bằng Optuna. 
-- Đánh giá mô hình thông qua các chỉ số chuẩn xác: RMSE, MAE, và MAPE.
+- Đánh giá mô hình thông qua các chỉ số chuẩn xác: RMSE, MAE, R2 và MAPE.
 - Triển khai cơ chế recursive forecasting cho các dự báo dài hạn. 
 - Pipeline dễ dàng mở rộng để cắm thêm các thuật toán hoặc tập dữ liệu mới.
 
@@ -124,6 +124,9 @@ Bao gồm dữ liệu bán hàng lịch sử (`sales.csv`) và tệp mẫu dự 
     │       ├── prophet_optuna.py
     │       └── transformer_optuna.py
     ├── .gitignore
+    ├── COLLABORATION_GUIDE.md
+    ├── config.ini
+    ├── ERD.jpg
     ├── LICENSE
     ├── README.md
     └── requirements.txt
