@@ -93,6 +93,13 @@ Bao gồm dữ liệu bán hàng lịch sử (`sales.csv`) và tệp mẫu dự 
 ## Cấu trúc dự án
 ```bash
     Datathon26/
+    ├── Dashboard-BI/                   # Part 2 visualization bằng PowerBI.
+    |   ├──DATATHON_DASHBOARD_4.pdf
+    |   ├──DATATHON_DASHBOARD_5.pdf
+    |   ├──DATATHON_DASHBOARD_123.pdf
+    |   ├──Dashboard_KD1.pbix
+    |   ├──Dashboard_KD3.pbix
+    |   └──Dashboard_KD4.pbix
     ├── dataset/                        # Chứa dữ liệu thô và đã làm sạch (sales.csv)
     ├── output/                         # Chứa các file dự báo cuối cùng (submission.csv)
     ├── notebooks/                      
