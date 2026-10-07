@@ -19,3 +19,6 @@ catboost_info/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Data
+dataset/*
